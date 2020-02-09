@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const toDo={
+const posts={
   getPosts:() =>{ 
 
         return axios.get('https://jsonplaceholder.typicode.com/posts')
@@ -14,4 +14,4 @@ const toDo={
  }
 }
 
-export default toDo;
+export default posts;

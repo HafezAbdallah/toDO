@@ -6,4 +6,6 @@ Run the project :
  navigate to posts by adding "/posts" to the url
 
 
- created using the basic create react app.
+ created using the basic create react app. 
+ i used mulpile ways to acheive the samething to demonstrate as much patterns as possible .
+ 
