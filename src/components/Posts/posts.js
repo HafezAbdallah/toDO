@@ -73,7 +73,7 @@ class ToDo extends React.Component
             return(
             <div>
                 <div className="contianer">
-                    <label>Page {this.state.pageindex+1}</label>
+                    <label>Post's Page {this.state.pageindex+1}</label>
                     {this.state.posts.slice(start,start+pageSize).map((item,index)=>{
                         return(
                         <div key={item.id} className="listItem">

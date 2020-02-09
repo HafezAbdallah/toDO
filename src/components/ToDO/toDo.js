@@ -53,7 +53,7 @@ class ToDo extends React.Component
             return(
             <div>
                 <div style={{display:'flex',flexDirection:'column',alignItems:'center',}}>
-                    <label>Page {this.state.pageindex+1}</label>
+                    <label>To DO List's Page {this.state.pageindex+1}</label>
                     {this.state.toDoItems.slice(start,start+pageSize).map((item,index)=>{
                         return(
                         <div key={item.id} style={{width:'50%'}}>
